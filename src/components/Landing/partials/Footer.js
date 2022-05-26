@@ -19,11 +19,9 @@ function Footer() {
                                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                                     <div className="container">
                                         <div className="row align-items-center">
-                                            <div className="footer-logo">
-                                                <img src={esquirelogo} alt="logo" width='30' height='30' /><span className="text-danger esquire-font logoText"><img src={esquireText} alt="text logo" width='250' height='250' /></span>
-                                            </div>
+                                           
                                             <div className="footer-copyright">
-                                                <p>© 2021 <Link to="/#">Esquire Technology.</Link> <span>All Rights Reserved</span></p>
+                                                <p>© 2022 <Link to="/#">Esquire Technology Ltd.</Link> <span>All Rights Reserved</span></p>
                                             </div>
                                         </div>
                                     </div>
@@ -40,10 +38,10 @@ function Footer() {
                                         <h5 className="widget-title" style={{fontSize: '1.7rem'}}>Resources</h5>
                                         <div className="footer-widget-menu">
                                             <ul>
-
+                                                <li> <Link to="/about"><FontAwesomeIcon icon={faAngleRight} /> About</Link></li>
                                                 <li> <Link to="/products" ><FontAwesomeIcon icon={faAngleRight} /> Products</Link></li>
                                                 <li> <Link to="/services" ><FontAwesomeIcon icon={faAngleRight} /> Services</Link></li>
-                                                <li> <Link to="/about"><FontAwesomeIcon icon={faAngleRight} /> About</Link></li>
+                                               
                                                 <li> <Link to="/contact"><FontAwesomeIcon icon={faAngleRight} /> Contact</Link></li>
 
                                             </ul>
@@ -56,11 +54,11 @@ function Footer() {
                                         <h5 className="widget-title" style={{fontSize: '1.7rem'}}>Social Links</h5>
                                         <div className="footer-social-links">
                                             <ul>
-                                                <li><Link to="/#" ><FaFacebookF /></Link></li>
+                                                <li><a href="https://www.facebook.com/esquireTechnology/" ><FaFacebookF /></a></li>
                                                 {/* <li><Link to="/#" ><FaTwitter /></Link></li>
                                                 <li><Link to="/#" ><FaYoutube /></Link></li>
                                                 <li><Link to="/#" ><FaBehance /></Link></li> */}
-                                                <li><Link to="/#" ><FaLinkedin /></Link></li>
+                                                <li><a href="https://bd.linkedin.com/company/esquire-technology-ltd" ><FaLinkedin /></a></li>
                                             </ul>
                                         </div>
                                     </div>

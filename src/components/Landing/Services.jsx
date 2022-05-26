@@ -124,7 +124,7 @@ function Services() {
                                         <div className="section-heading-tag">
                                             <span className="single-heading-tag">Our Strength</span>
                                         </div>
-                                        <h2>Grow Your Business With Esquire Technology</h2>
+                                        <h2>Grow Your Business With Esquire Technology Ltd</h2>
                                     </div>
 
                                     <div className="">

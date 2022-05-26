@@ -6,6 +6,8 @@ import "./assets/css/responsive.css";
 import "./assets/css/style.css";
 import 'bootstrap/dist/css/bootstrap.css'; 
 import 'font-awesome/css/font-awesome.min.css';
+import "./assets/css/slick.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";

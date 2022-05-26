@@ -28,9 +28,9 @@ const Navbar = () => {
             <li>
               <NavLink to="/about" activeStyle={{ color: 'red' }} style={{ textDecoration: 'none'}} exact activeClassName="active">about</NavLink>
             </li>
-          <li>
+          {/* <li>
               <NavLink to="/header" activeStyle={{ color: 'red' }} style={{ textDecoration: 'none'}} exact activeClassName="active">header</NavLink>
-            </li>
+            </li> */}
              {/*  <li>
               <NavLink to="/footer" activeStyle={{ color: 'red' }} style={{ textDecoration: 'none'}} exact activeClassName="active">footer</NavLink>
             </li> */}

@@ -15,14 +15,18 @@ import ayesha from "../../img/esq/ayesha.jpg";
 import md from "../../img/esq/md.png";
 import joshef from "../../img/esq/joshef.png";
 import imtiyaz from "../../img/esq/imtiyaz.png";
-import rokibul from "../../img/esq/rokibul.jpg";
-import farhan from "../../img/esq/farhan.jpeg";
+import rokibul from "../../img/esq/rokibul.png";
+import brand from "../../img/brand/brand-1.png";
+import farhan from "../../img/brand/brand-1.png";
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { AiFillCompass } from "react-icons/ai";
 import { BiFingerprint } from "react-icons/bi";
 import { FiUsers } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import { FaCheckCircle } from 'react-icons/fa';
+import { AiOutlineSend } from "react-icons/ai";
+import { Carousel } from 'react-responsive-carousel';
 const About = () => {
     const myStyle = {
         width: '100%',
@@ -55,7 +59,7 @@ const About = () => {
                         <div className="col">
                             <div className="section-title text-center">
                                 <div className="section-heading-tag service">
-                                    Esquire Technology was founded to share our vision of the cloud with our partners and customers.Esquire Technology was founded after realising that the customer's journey to the cloud was not been fully addressed. We pride ourselves on being Technology Native and not being locked into vendor technologies, but instead provide the best cloud solution for our customers.
+                                    Esquire Technology Ltd was founded to share our vision of the cloud with our partners and customers.Esquire Technology Ltd was founded after realising that the customer's journey to the cloud was not been fully addressed. We pride ourselves on being Technology Native and not being locked into vendor technologies, but instead provide the best cloud solution for our customers.
                                 </div>
                             </div>
                         </div>
@@ -115,7 +119,7 @@ const About = () => {
                                         <p className="iconic-box-content" style={{ fontSize: 14 }}>
                                             "Nowadays, the fourth industrial revolution—fourth in the sense of its innovative and qualitative nature—is taking place. On the one hand, the quality of the changes can be seen in the fact that the whole production process is managed and supervised in an integrated way, and is combined, yet flexible. In order to remain competitive in a globalized environment, manufacturing companies need to constantly evolve their production systems and accommodate the changing demands of markets.
 
-                                            Esquire Technology is focusing to develop sustainable industrial solution in line with the vision of fourth industrial revolution. We cordially welcome you as our partner in this automation journey."
+                                             Ltd is focusing to develop sustainable industrial solution in line with the vision of fourth industrial revolution. We cordially welcome you as our partner in this automation journey."
                                         </p>
                                     </div>
                                 </div>
@@ -124,8 +128,8 @@ const About = () => {
                     </div>
                 </div>
             </section>
-
-
+           
+          
             <section className="our-team-area our-team-area-v2 pt-50 pb-30" style={{ backgroundImage: `url(${dotspatternbg})` }}>
                 <div className="container">
                     <div className="row justify-content-center">
@@ -169,7 +173,7 @@ const About = () => {
                             <div className="col-lg-3 col-md-6 ">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
                                     <div className="team-member-thumb text-center h-25 w-90" >
-                                        <img src={rabbir} alt="team member two" />
+                                        <img src={rabbir} alt="team member two"  style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
                                         <h5 className="team-member-name">
@@ -193,7 +197,7 @@ const About = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
                                     <div className="team-member-thumb text-center h-25 w-90">
-                                        <img src={nayem} alt="team member six" />
+                                        <img src={nayem} alt="team member six"  style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
                                         <h5 className="team-member-name">
@@ -217,7 +221,7 @@ const About = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2000ms">
                                     <div className="team-member-thumb text-center">
-                                        <img src={noyon} alt="team member three" style={myStyle1} />
+                                        <img src={noyon} alt="team member three" style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
                                         <h5 className="team-member-name">
@@ -241,7 +245,7 @@ const About = () => {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <div className="team-member-thumb  text-center ">
-                                        <img src={saddam} alt="team member four" style={myStyle1} />
+                                        <img src={saddam} alt="team member four" style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
                                         <h5 className="team-member-name">
@@ -264,7 +268,7 @@ const About = () => {
                           
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="team-member-thumb">
+                                    <div className="team-member-thumb  text-center">
                                         <img src={joshef} alt="team member five" style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
@@ -286,7 +290,7 @@ const About = () => {
                             
                             <div className="col-lg-3 col-md-6">
                                         <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                            <div className="team-member-thumb">
+                                            <div className="team-member-thumb  text-center">
                                                 <img src={imtiyaz} alt="team member two" style={myStyle2} />
                                             </div>
                                             <div className="team-member-bio">
@@ -309,7 +313,7 @@ const About = () => {
                                     </div>
                                     <div className="col-lg-3 col-md-6">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                    <div className="team-member-thumb">
+                                    <div className="team-member-thumb  text-center">
                                         <img src={ayesha} alt="team member three" style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
@@ -327,7 +331,7 @@ const About = () => {
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="team-member-thumb">
+                                    <div className="team-member-thumb  text-center">
                                         <img src={abir} alt="team member two" style={myStyle2} />
                                     </div>
                                     <div className="team-member-bio">
@@ -348,47 +352,7 @@ const About = () => {
                             <Collapse isOpen={isOpen}>
                                 <div className="team-member-content">
                                     <div className="row">
-                                    <div className="col-lg-3 col-md-6">
-                                <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="team-member-thumb">
-                                        <img src={farhan} alt="team member five" style={myStyle2} />
-                                    </div>
-                                    <div className="team-member-bio">
-                                        <h5 className="team-member-name">
-                                            Farhan Sadiq Sohan
-                                        </h5>
-                                        <p className="team-member-role">
-                                            Executive
-                                        </p>
-                                        <div className="social-links">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div className="col-lg-3 col-md-6">
-                                        <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                            <div className="team-member-thumb">
-                                                <img src={kausar} alt="team member three" style={myStyle2} />
-                                            </div>
-                                            <div className="team-member-bio">
-                                                <h5 className="team-member-name">
-                                                    Kausar Ahmed
-                                                </h5>
-                                                <p className="team-member-role">
-                                                System & Network Admin
-                                                </p>
-                                                <div className="social-links">
-                                                    <ul>
-                                                        {/* <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                                                                    <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                                                                    <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                                                                                    <li><a href="#"><i className="fab fa-behance"></i></a></li> */}
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                  
                                    
                                     <div className="col-lg-3 col-md-6">
                                         <div className="single-team-member single-team-member-v2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -444,22 +408,7 @@ const About = () => {
 
                             </Collapse>
                         </div>
-                        <div className="team-btn-wrapper text-center wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-
-
-                            <Button className="filled-btn bg-ocean-blue firstBtn" color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>  { isOpen ? "Hide Members": 'View More Members' } <FontAwesomeIcon icon={faAngleRight} /></Button>
-                            <Collapse isOpen={isOpen}>
-
-                                <div className="team-member-content">
-                                    <div className="row">
-
-                                        
-
-                                    </div>
-                                </div>
-
-                            </Collapse>
-                        </div>
+                      
                     </div>
                 </div>
             </section>
@@ -534,7 +483,49 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            <section id="client-slider" class="my-5">
+                <div class="row">
+                    <div class="col-sm-12">
+                    <h1 class="text-center">Our Clients</h1>
+                    </div>
+                    <div class="col-sm-12">
+                    <h5 class="text-center">These are our happy clients who trusts us.</h5>
+                    </div>
+                </div>
+              
 
+                <div className="row p-5">
+                        <div className="col-lg-6">
+                            <div className="pricing-table starter-plan wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                              
+                                <ul className="service">
+                                    <li> <AiOutlineSend color="#F95F75" size="1em" /> Esquire Knit Composite Ltd (EKCL)</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Esquire Dyeing Inds Ltd (EDIL)</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  L'Esquire Ltd</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Fiza Tex</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Tamanna Tex</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  SFM</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />   Esquire Accessories Ltd (EAL)</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="pricing-table starter-plan wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                              
+                                <ul className="service">
+                                    <li> <AiOutlineSend color="#F95F75" size="1em" /> Esquire Plastics Ltd (EPL)</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Esquire Agro & Dairy Limited (EADL)</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Fuji PVC Pipe & Plastic Industries Ltd (FPPIL)</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Alpha Plastic & Packaging Ltd (APPL)</li>
+                                    <li><AiOutlineSend color="#F95F75" size="1em" />  Orange and Half Café (OHC)</li>
+                                    
+                                </ul>
+
+                            </div>
+                        </div>
+                </div>        
+            </section>
 
         </React.Fragment>
     )

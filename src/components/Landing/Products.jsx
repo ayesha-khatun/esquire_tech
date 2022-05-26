@@ -4,9 +4,9 @@ import { faMapMarkerAlt ,faHandshake,faAllergies,faCogs,faAngleRight} from '@for
 import products from "../../img/products.png";
 import servicetrans2 from "../../img/servicetrans2.png";
 import smarttracker from "../../img/esq/smarttracker.png";
-import {BsFillCheckCircleFill } from 'react-icons/bs';
+import {BsFillCheckCircleFill,BsFillBagFill,BsReverseLayoutTextWindowReverse,BsCurrencyDollar } from 'react-icons/bs';
 import { Link } from "react-router-dom";
-
+import {FaRegFutbol } from 'react-icons/fa';
 
 function Products() {
    
@@ -140,6 +140,21 @@ function Products() {
                     </div>
                     <div className="our-services-content-wrapper">
                         <div className="row">
+                        <div className="col-xl-3 col-lg-6">
+                                <div className="single-iconic-box iconic-box-v4 wow " data-wow-delay="0.1s" data-wow-duration="2000ms">
+ 
+                                    <div className="iconic-box-icon iconic-box-gradient-4">
+                                    <FaRegFutbol size="2x" color="blue"/>
+                                
+                                      
+                                    </div>
+                                    <div className="iconic-box-body">
+                                        <p className="iconic-box-content">
+                                            ERP System
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="col-xl-3 col-lg-6">
                                 <div className="single-iconic-box iconic-box-v4 wow " data-wow-delay="0.1s" data-wow-duration="2000ms">
                                     <div style={{  width: 61}}  className="iconic-box-gradient-4 pb-4">
@@ -157,9 +172,9 @@ function Products() {
                             <div className="col-xl-3 col-lg-6">
                                 <div className="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.3s" data-wow-duration="2000ms">
                                     <div className="iconic-box-icon iconic-box-gradient-4">
-                                    <FontAwesomeIcon icon={faHandshake} size="1.7x" color="red"   />
+                                    <FontAwesomeIcon icon={faHandshake} size="1.7x" color="blue"   />
                                 
-                                        {/* <FaHandshake  style={{  width: 61}} /> */}
+                                      
                                     </div>
                                     <div className="iconic-box-body">
 
@@ -173,11 +188,11 @@ function Products() {
                                 <div className="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="2000ms">
                                     <div className="iconic-box-icon iconic-box-gradient-5">
                                     <i className="fab fa-accessible-icon"></i>
-                                        <FontAwesomeIcon icon={faAllergies} size="1.7x" color="blue"/>
+                                        <BsFillBagFill  color="blue"/>
                                     </div>
                                     <div className="iconic-box-body">
                                         <p className="iconic-box-content">
-                                            On Demand Software
+                                            Merchandising
                                         </p>
                                     </div>
                                 </div>
@@ -185,11 +200,50 @@ function Products() {
                             <div className="col-xl-3 col-lg-6">
                                 <div className="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.7s" data-wow-duration="2000ms">
                                     <div className="iconic-box-icon iconic-box-gradient-6">
-                                    <FontAwesomeIcon icon={faCogs} size="1.7x" color="green"/>
+                                  
+                                    <BsReverseLayoutTextWindowReverse color="blue"/>
                                     </div>
                                     <div className="iconic-box-body">
                                         <p className="iconic-box-content">
-                                            On Demand ERP
+                                            Inventory
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.7s" data-wow-duration="2000ms">
+                                    <div className="iconic-box-icon iconic-box-gradient-6">
+                                  
+                                    <BsReverseLayoutTextWindowReverse color="blue"/>
+                                    </div>
+                                    <div className="iconic-box-body">
+                                        <p className="iconic-box-content">
+                                            Supply Chain
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.7s" data-wow-duration="2000ms">
+                                    <div className="iconic-box-icon iconic-box-gradient-6">
+                                    <FontAwesomeIcon icon={faCogs} size="1.7x" color="blue"/>
+                                    </div>
+                                    <div className="iconic-box-body">
+                                        <p className="iconic-box-content">
+                                        Maintenance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6">
+                                <div className="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.7s" data-wow-duration="2000ms">
+                                    <div className="iconic-box-icon iconic-box-gradient-6">
+                                   
+                                    <BsCurrencyDollar color="blue"/>
+                                    </div>
+                                    <div className="iconic-box-body">
+                                        <p className="iconic-box-content">
+                                            FIxed Asset
                                         </p>
                                     </div>
                                 </div>

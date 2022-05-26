@@ -37,10 +37,10 @@ const App = () => {
         <About />
         <Footer/>
       </Route>
-      <Route path="/header">
+      {/* <Route path="/header">
         <Header />
    
-      </Route>
+      </Route> */}
       <Route path="/products">
         <Header />
         <Products />

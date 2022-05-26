@@ -77,6 +77,34 @@ p {
     padding: 0px;
 }
 
+
+.owl-nav {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+  }
+  .owl-prev {
+    display:block;
+    float: left;
+    margin-left: -50px;
+    width: 50px;
+    height: 50px;
+  }
+  .owl-next {
+    float:right;
+    margin-right: -50px;
+    display:block;
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  
+  .card-img-top img { max-height: 70px; max-width: 70px; margin: auto; }
+
+  
+
+
 img {
     max-width: 100%;
     height: auto;
@@ -90,7 +118,9 @@ ul, ol {
 
     margin-right: 6%!important;
 }
-
+.thumbs-wrapper button{
+    visibility: hidden;
+}
 .logoText{
     font-family: 'esquivel';
     color:#8A211A;

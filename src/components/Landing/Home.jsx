@@ -1,6 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
-// import { User } from "../../includes";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import herocurvebg from "../../img/hero/herocurvebg.png";
@@ -294,7 +292,7 @@ function Home() {
                                     <div className="single-contact-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
                                         <h4>Ready to Work Together For Better Solutions </h4>
                                         <Link to="/" className="filled-btn btn-bordered bg-royal-blue">
-                                            Join with us <i className="fas fa-arrow-right"></i>
+                                            Join with us <i className="fa fa-arrow-right"></i>
                                         </Link>
                                     </div>
                                     {/* <div className="single-contact-box wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
@@ -334,7 +332,7 @@ function Home() {
                                         <label htmlFor="message">Message</label>
                                     </div>
                                     <div className="input-group">
-                                        <button type="submit" className="filled-btn" >Submit<i className="fas fa-arrow-right"></i></button>
+                                        <button type="submit" className="filled-btn" >Submit<i className="fa fa-arrow-right"></i></button>
                                     </div>
                                 </form>
                             </div>
